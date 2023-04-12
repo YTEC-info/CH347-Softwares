@@ -12,12 +12,12 @@ CH347 USB-HS-Bridge é uma ferramenta de depuração feita pelo MuseLab com base
 # Modo de trabalho
 O modo de trabalho do chip é configurado por DTR1 e RTS1 detalhe do modo DTR1 RTS1
 
-| SW | DTR1 | RTS1 | MODO
+| MODO| DTR1 | RTS1 | INTERFACE
 |---|---|---|---|
-| 0 | 1 | 1 | UART0 + UART1 |
-| 1 | 1 | 0 | UART1 + I2C + SPI (VCP Mode) |
-| 2 | 0 | 1 | UART1 + I2C + SPI (HID Mode) |
-| 3 | 0 | 0 | UART1 + JTAG |  
+| '0' | 1 | 1 | **UART0 + UAR** |
+| '1' | 1 | 0 | **UART1 + I2C + SPI (VCP Mode)** |
+| '2' | 0 | 1 | **UART1 + I2C + SPI (HID Mode)** |
+| '3' | 0 | 0 | **UART1 + JTAG** |  
 
 
 # Características
