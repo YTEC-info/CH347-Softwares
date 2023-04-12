@@ -14,10 +14,10 @@ O modo de trabalho do chip é configurado por DTR1 e RTS1 detalhe do modo DTR1 R
 
 | MODO| DTR1 | RTS1 | INTERFACE
 |---|---|---|---|
-| '0' | 1 | 1 | **UART0 + UAR** |
-| '1' | 1 | 0 | **UART1 + I2C + SPI (VCP Mode)** |
-| '2' | 0 | 1 | **UART1 + I2C + SPI (HID Mode)** |
-| '3' | 0 | 0 | **UART1 + JTAG** |  
+| `0` | 1 | 1 | **UART0 + UAR** |
+| `1` | 1 | 0 | **UART1 + I2C + SPI (VCP Mode)** |
+| `2` | 0 | 1 | **UART1 + I2C + SPI (HID Mode)** |
+| `3` | 0 | 0 | **UART1 + JTAG** |  
 
 
 # Características
@@ -32,4 +32,4 @@ O I2C (nota I2C Master) é ativado no modo 12, a diferença entre o modo 12 é q
 O SPI (nota SPI Master com 4 linhas) está habilitado no modo 12, existem dois pinos CS, então você pode controlar dois dispositivos SPI ao mesmo tempo (time-sharing).
 
 ## USB para JTAG
-O JTAG é ativado no modo 3, inclui TCKTMSTDITDOTRST, suporta modo rápido e modo bit-bang, velocidade mais rápida de até 18Mbits.
+O JTAG é ativado no modo 3, inclui `TCK` `TMS` `TDI` `TDO` `TRST`, suporta modo rápido e modo bit-bang, velocidade mais rápida de até 18Mbits.
