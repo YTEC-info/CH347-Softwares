@@ -9,3 +9,10 @@ O CH347 é um chip conversor de barramento USB de alta velocidade que fornece po
 - I2C 
 - SPI  
 - JTAG. 
+
+# Softwares Compativeis
+- CH347 Programmer V1.40
+- CH347Demo
+- CH347FPGATool
+- OpenOCD
+- Flashrom
