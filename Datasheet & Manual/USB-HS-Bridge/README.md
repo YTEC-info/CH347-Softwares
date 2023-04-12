@@ -6,11 +6,12 @@
 
 
 # Apresentação 
-CH347 USB-HS-Bridge é uma ferramenta de depuração feita pelo MuseLab com base no CH347 da WCH Com USB 2.0 de alta velocidade, suporta `USB-to-I2C` `SPI` `UART` `JTAG` `GPIO`, pode ser usado para operar vários dispositivos, incluindo MCUDSPFPGACPLDEEPROMSPI-FlashLCD...
+O CH347 USB-HS-Bridge é uma ferramenta de depuração feita pelo MuseLab com base no CH347 da WCH Com USB 2.0 de alta velocidade, suporta `USB-to-I2C` `SPI` `UART` `JTAG` `GPIO`, pode ser usado para operar com vários dispositivos, incluindo `MCUs` `PFPGAs` `CPLs` `EEPROMs` `SPI-Flash` `LCDs`...
+
 
 
 # Modo de trabalho
-O modo de trabalho do chip é configurado por DTR1 e RTS1 detalhe do modo DTR1 RTS1
+O modo de trabalho do chip é configurado pelos swiches DTR1 e RTS1
 
 | MODO| DTR1 | RTS1 | INTERFACE
 |---|---|---|---|
@@ -18,6 +19,8 @@ O modo de trabalho do chip é configurado por DTR1 e RTS1 detalhe do modo DTR1 R
 | `1` | 1 | 0 | **UART1 + I2C + SPI (VCP Mode)** |
 | `2` | 0 | 1 | **UART1 + I2C + SPI (HID Mode)** |
 | `3` | 0 | 0 | **UART1 + JTAG** |  
+
+
 
 
 # Características
