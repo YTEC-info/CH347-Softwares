@@ -1,12 +1,8 @@
-CH347 USB-HS-Bridge
+# CH347 USB-HS-Bridge
 
 <p><img alt="" src="https://raw.githubusercontent.com/YTEC-info/CH347-Softwares/main/Datasheet%20%26%20Manual/USB-HS-Bridge/Ch347-1.jpg" style="float:center; height:600px; width:600px" /></p>
 
------------
-  [Apresentação](#Apresentação)
-  [Modo de Trabalho](#Modo de trabalho)
-  [Recursos](#Recursos)
-  [Como usar](#como usar)
+
 
 
 # Apresentação 
@@ -35,7 +31,3 @@ o SPI (nota SPI Master com 4 linhas) está habilitado no modo 12, existem dois p
 
 ## USB para JTAG
 o JTAG é ativado no modo 3, inclui TCKTMSTDITDOTRST, suporta modo rápido e modo bit-bang, velocidade mais rápida de até 18Mbits.
-
-# Como usar
-há uma demonstração de teste em docCH347EVTEVTTOOLSCH347Demo para testar UARTI2CSPIJTAGGPIO.
-para suporte openocd, consulte o repositório oficial WCH github.comWCHSoftGroupch347
